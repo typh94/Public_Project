@@ -72,12 +72,12 @@ public class ScentedCandle extends Candle
  
 	public void setHeight( ) 
 	{
-     	super.price = (height * waxCost() ); 
+     		super.price = (height * waxCost() ); 
 	}
 	public void setHeight(int height) 
 	{
-    	super.setHeight(height);  
-    	super.price = (height * waxCost() ); 
+    		super.setHeight(height);  
+    		super.price = (height * waxCost() ); 
 	}
 	
 	public String waxTypeStr()
@@ -114,7 +114,7 @@ public class ScentedCandle extends Candle
 	
 	public String themeStr()
 	{
-    	String stringTheme = "";
+    		String stringTheme = "";
     	
   		if      (theme == 1)  
 			stringTheme = "Bobidi-Boo";
@@ -142,10 +142,6 @@ public class ScentedCandle extends Candle
  
 		return msg;
 	}
-
-	//------------------------------------------------------------------------------------
-	// 						 ()
-	//------------------------------------------------------------------------------------
 
 }//end class
 
